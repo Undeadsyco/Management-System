@@ -1,0 +1,11 @@
+/v1/server/node_modules
+/v1/pos-system/node_modules
+/v1/inventory-system/node_modules
+
+/v2/server/node_modules
+/v2/server/clients/pos_client/node_modules
+/v2/server/clients/management_system/node_modules
+/v2/server/clients/kiosk_client/node_modules
+
+/v3/node_modules
+/v4/node_modules
