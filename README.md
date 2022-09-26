@@ -21,12 +21,12 @@ Project Includes:
     1. Login using 8 digit pass phrase (4 digit identifier + 4 digit password - see database for user ids and passwords)
     2. Clocking in if not already
     3. Taking customer order, including:
-      1. Selecting pizza size
-      2. Selecting pizza
-      3. Adding/Removing pizza { !!! current bug reading list length in state reducer !!! }
-      4. Adding/Removing toppings/comments/discounts to pizza
-      5. Accept "cash" payments
-      6. Complete order once paymant has been completed
+      A. Selecting pizza size
+      B. Selecting pizza
+      C. Adding/Removing pizza { !!! current bug reading list length in state reducer !!! }
+      D. Adding/Removing toppings/comments/discounts to pizza
+      E. Accept "cash" payments
+      F. Complete order once paymant has been completed
 
 5. for inventory system - cd into respective folder and run npm start to run react project.
   (inventory system is a work in progress and does not have many features implimented)
