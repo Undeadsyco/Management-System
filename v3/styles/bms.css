@@ -1,0 +1,283 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bms System styles */
+@layer base {
+  .grid-rows-7 { grid-template-rows: repeat(7, minmax(0, 1fr)); }
+  .grid-rows-8 { grid-template-rows: repeat(8, minmax(0, 1fr)); }
+  .grid-rows-9 { grid-template-rows: repeat(9, minmax(0, 1fr)); }
+  .grid-rows-10 { grid-template-rows: repeat(10, minmax(0, 1fr)); }
+  .grid-rows-11 { grid-template-rows: repeat(11, minmax(0, 1fr)); }
+  .grid-rows-12 { grid-template-rows: repeat(12, minmax(0, 1fr)); }
+  .row-span-6 { grid-row: span 6 / span 6; }
+  .row-span-7 { grid-row: span 7 / span 7; }
+  .row-span-8 { grid-row: span 8 / span 8; }
+  .row-span-9 { grid-row: span 9 / span 9; }
+  .row-span-10 { grid-row: span 10 / span 10; }
+  .row-span-11 { grid-row: span 11 / span 11; }
+  .row-span-12 { grid-row: span 12 / span 12; }
+}
+
+/* Login Containerfor login.jsx */
+@layer components {
+  .login-container {
+    @apply 
+      w-screen
+      h-screen
+      flex
+      flex-col
+      items-center
+      justify-center
+
+  }
+
+  .login-container > h1 {
+    @apply 
+      text-3xl
+      text-center
+      font-bold
+      mb-4
+  }
+
+  .login-container > form {
+    @apply 
+      w-full
+      max-w-xs
+      mb-4
+      border-2
+      border-gray-400
+      rounded-2xl
+      p-4
+  }
+
+  .login-container > form > label {
+    @apply 
+      block
+      text-gray-700
+      font-bold
+      mb-2
+  }
+
+  .login-container > form > label > input,
+  .login-container > form > label > div > input {
+    @apply 
+      appearance-none
+      border
+      border-gray-400
+      w-full
+      py-1
+      px-2
+      text-gray-700
+      leading-tight
+      focus:outline-none
+      focus:border-blue-500
+  }
+
+  .login-container > form > label > h3 {
+    @apply 
+      text-gray-700
+      font-bold
+      mb-2
+  }
+
+  .login-container > form > label > p.error {
+    @apply 
+      text-red-500
+      font-bold
+      mb-2
+      text-sm
+  }
+
+  .login-container > form > div > button {
+    @apply 
+      w-1/2
+      max-w-xs
+      mb-4
+      text-center
+      font-bold
+      py-2
+      px-4
+      border-b-2
+      border-blue-500
+      text-blue-500
+      hover:bg-blue-500
+      hover:text-white
+      focus:outline-none
+      focus:border-blue-700
+  }
+}
+/* Login Container End */
+
+/* Main Container for index.jsx */
+@layer components {
+  .main-container {
+    @apply 
+      w-screen
+      h-screen
+      flex
+      flex-col
+      items-center
+      justify-center
+  }
+
+  .main-container > h1 {
+    @apply 
+      text-3xl
+      text-center
+      font-bold
+      mb-4
+  }
+
+  .main-container > .btnBox {
+    @apply
+    grid
+    grid-cols-3
+    grid-rows-2
+    w-3/4 
+    h-2/3
+    gap-8
+    items-center
+    justify-items-center
+  }
+
+  .main-container > .btnBox > button {
+    @apply
+    w-[80%] 
+    h-[80%] 
+    bg-gray-300
+    border-2
+    border-black
+    rounded-3xl
+    font-bold
+    text-lg
+  }
+}
+/* Main Container End */
+
+/* Modal Form */
+@layer components {
+  .modal-form {
+    @apply 
+      w-full
+      mb-4
+      border-2
+      border-gray-400
+      rounded-2xl
+      p-4
+      flex
+      flex-wrap
+  }
+
+  .modal-form > label,
+  .modal-form > label > label {
+    @apply 
+      flex
+      flex-col
+      text-gray-700
+      font-bold
+      mb-2
+      w-1/2
+  }
+
+  .modal-form > label > input,
+  .modal-form > label > select,
+  .modal-form > label > label > input {
+    @apply 
+      appearance-none
+      border
+      border-gray-400
+      w-full
+      py-1
+      px-2
+      text-gray-700
+      leading-tight
+      focus:outline-none
+      focus:border-blue-500
+  }
+}
+/* Modal Form End */
+
+/* Account Modal Form */
+@layer components {
+  .account-modal-form {
+    @apply 
+      w-[40%]
+      mb-4
+      border-2
+      border-gray-400
+      rounded-2xl
+      p-4
+      flex
+      flex-wrap
+  }
+
+  .account-modal-form > label {
+    @apply 
+      flex
+      flex-col
+      text-gray-700
+      font-bold
+      mb-2
+      w-full
+  }
+
+  .account-modal-form > label > h3 {
+    @apply 
+      text-gray-700
+      font-bold
+      mb-2
+  }
+
+  .account-modal-form > label > input {
+    @apply 
+      appearance-none
+      border
+      border-gray-400
+      w-full
+      py-1
+      px-2
+      text-gray-700
+      leading-tight
+      focus:outline-none
+      focus:border-blue-500
+  }
+
+  .account-modal-form > label > p.error {
+    @apply 
+      text-red-500
+      font-bold
+      mb-2
+      text-sm
+  }
+
+  .account-modal-form > div {
+    @apply 
+      flex
+      flex-col
+      text-gray-700
+      font-bold
+      mb-2
+      w-full
+  }
+
+  .account-modal-form > div > button {
+    @apply 
+      w-full
+      max-w-xs
+      mb-4
+      text-center
+      font-bold
+      py-2
+      px-4
+      border-b-2
+      border-blue-500
+      text-blue-500
+      hover:bg-blue-500
+      hover:text-white
+      focus:outline-none
+      focus:border-blue-700
+  }
+}
+/* Account Modal Form End */
+
