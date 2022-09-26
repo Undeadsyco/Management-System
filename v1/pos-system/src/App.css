@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.red-btn {
+  background-color: rgba(220, 20, 60, 0.7);
+  color: white;
+}
+
+.red2-btn {
+  background-color: rgba(255, 19, 19, 0.7);
+  color: white;
+}
+
+.red3-btn {
+  background-color: red;
+  color: white;
+}
+
+.signiture-btn:first-child {
+  background-color: green;
+  color: white;
+}
+
+.orange-btn {
+  background-color: rgba(255, 166, 0, 0.7);
+  color: white;
+}
+
+.orange2-btn {
+  background-color: rgb(255, 145, 0);
+  color: white;
+}
+
+.grey-btn {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: white;
+}
+
+.blue-btn {
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+}
+
+.yellow-btn {
+  background-color: rgba(255, 255, 0, 0.7);
+}
+
+.yellow2-btn {
+  background-color: yellow;
+}
+
+.green-btn {
+  background-color: green;
+  color: white;
+}
+
+.green2-btn {
+  background-color: rgb(0, 255, 0);
+}
+
+.maroon-btn {
+  background-color: rgba(128, 0, 0, 0.7);
+  color: white;
+}
+
+.tan-btn {
+  background-color: rgba(247, 218, 184, 0.7);
+}
+
+.invisible {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  border: none;
+}
+
+.push-to-end{
+  grid-row: 10/11;
+}
