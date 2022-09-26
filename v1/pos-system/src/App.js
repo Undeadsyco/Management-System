@@ -22,6 +22,7 @@ import {
 
 import './App.css';
 
+
 const $App = (props) => {
   const {
     onGetSizes, onGetPizzasBySize, onGetToppings,
