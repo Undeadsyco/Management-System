@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
   res.send('hello this is the back end server')
-})
+});
 
 // POS routes
 app.use('/v1/pos/menu', posRoutes.menuRoutes);
