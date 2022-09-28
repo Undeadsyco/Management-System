@@ -1,9 +1,13 @@
+# server node modules
 /server/node_modules
 
+# server err/req logs
 /server/logs
 
+# server env var
 /server/.env
 
+# client node modules
 /server/clients/pos_client/node_modules
 /server/clients/management_system/node_modules
 
