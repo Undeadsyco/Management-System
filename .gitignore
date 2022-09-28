@@ -2,7 +2,9 @@
 /server/node_modules
 
 # server err/req logs
-/server/logs
+/server/logs/
+
+/server/.gitignore
 
 # server env var
 /server/.env
