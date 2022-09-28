@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pos_system/static/css/main.e7475177.css",
+    "main.js": "/pos_system/static/js/main.0b9203b9.js",
+    "index.html": "/pos_system/index.html",
+    "main.e7475177.css.map": "/pos_system/static/css/main.e7475177.css.map",
+    "main.0b9203b9.js.map": "/pos_system/static/js/main.0b9203b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7475177.css",
+    "static/js/main.0b9203b9.js"
+  ]
+}
