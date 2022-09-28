@@ -1,6 +1,9 @@
+/server/node_modules
 
+/server/logs
 
-server/node_modules
-server/clients/pos_client/node_modules
-server/clients/management_system/node_modules
-server/clients/kiosk_client/node_modules
+/server/.env
+
+/server/clients/pos_client/node_modules
+/server/clients/management_system/node_modules
+
